@@ -1,6 +1,14 @@
 /* Main */
+body {
+  background: #F5F5F5;
+}
 .bar-default {
   border-bottom: none !important;
+}
+
+.bar-still {
+  width: 100%;
+  height: 70px;
 }
 
 .slider {
@@ -8,7 +16,7 @@
   height: 100%;
 }
 .slider-slide {
-  background-color: #efefef;
+  background-color: #F5F5F5;
   font-weight: 300;
 }
 

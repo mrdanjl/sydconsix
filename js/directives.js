@@ -2,7 +2,7 @@ angular.module('sydconsix.directives', [])
 
 .directive('combineHeader', function (SydconsixConfig, $timeout) {
   return {
-    template: '<div class="bar bar-header bar-default"><img ng-src="img/{{ header }}" /></div>',
+    template: '<div class="bar bar-header bar-still" style="background:url(\'img/{{ header }}\'); background-size:100% 100%; background-repeat:no-repeat"></div>',
     restrict: 'E',
     replace: true,
     scope: {

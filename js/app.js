@@ -4,15 +4,15 @@ angular.module('sydconsixApp', ['ionic', 'sydconsix.controllers', 'sydconsix.dir
   'channels': [
     {
       'header':       'sydconsix_header.png',
-      'image':        'PageSixConfidential-SydConSix.jpg'      
+      'image':        'PageSixConfidential-SydConSix.png'      
     },
     {
       'header':       'sydcon_header.png',
-      'image':        'PageSixConfidential-Confidential.jpg'      
+      'image':        'PageSixConfidential-Confidential.png'      
     },
     {
       'header':       'pagesix_header.png',
-      'image':        'PageSixConfidential-PageSix.jpg'      
+      'image':        'PageSixConfidential-PageSix.png'      
     }
   ]
 })
