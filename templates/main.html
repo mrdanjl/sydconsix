@@ -1,0 +1,9 @@
+<combine-header selected-channel="selectedChannel"></combine-header>
+
+<ion-slide-box on-slide-changed="changeSlide(index)" show-pager="false" active-slide="selectedChannel" ng-class="{'animated slideInRight': loadedContent}">
+  <ion-slide ng-repeat="channel in channels">
+    <ion-content padding="false">
+      <img ng-src="img/{{ channel.image }}" />
+    </ion-content>
+  </ion-slide>
+</ion-slide-box>

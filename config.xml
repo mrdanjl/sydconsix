@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "au.com.news.sydconsix"
+        version     = "0.0.1" >
+    <name>Sydconsix</name>
+    <description>
+        Sydconsix
+    </description>
+    <author email="daniel.lee@news.com.au" href="http://www.newsfoundry.com.au">
+        News Innovation
+    </author>
+    
+    <content src="index.html" />
+    <access origin="*" />
+    
+    <!-- Splash & Icons -->
+    <icon src="icon.png" />
+    <icon src="icons/icon-57x57-sc6.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/icon-72x72-sc6.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icons/icon-114x114-sc6.png" gap:platform="ios" width="114" height="114" />
+
+    <gap:splash src="splash.png" />
+    <gap:splash src="splash_5s.png" gap:platform="ios" width="640" height="1136" />
+    
+    <preference name="deployment-target" value="7.0" />
+    <preference name="fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+</widget>
+

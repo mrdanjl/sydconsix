@@ -1,0 +1,17 @@
+/* Main */
+.bar-default {
+  border-bottom: none !important;
+}
+
+.slider {
+  padding-top: 65px;
+  height: 100%;
+}
+.slider-slide {
+  background-color: #efefef;
+  font-weight: 300;
+}
+
+.slide-box {
+  padding-top: 80px;
+}
